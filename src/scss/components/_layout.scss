@@ -1,0 +1,36 @@
+.main {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../img/main-background.jpg");
+  background-color: coral;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+  }
+
+  &__title{
+    text-transform: lowercase;
+  }
+
+  &__title-item{
+    font: {
+      family: "Dancing Script";
+      size: 120px;
+    }
+    color: #FFC700;
+  }
+
+  &__subtitle{
+    font: {
+      family: "Circular Std Black";
+      size: 300px;
+    }
+    color: #ffffff;
+  }
+}
+
+
