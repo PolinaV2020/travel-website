@@ -1,0 +1,36 @@
+.header {
+  max-width: 1440px;
+  background-color: #ffffff;
+
+  &__nav{
+  margin: 0 auto;
+  width: 86%;
+  }
+
+  &__nav-list {
+  display: flex;
+  justify-content: space-between;
+  }
+
+  &__logo {
+    margin-right: 67%;
+    font: {
+      family: "Dancing Script";
+      size: 22px;
+      weight: normal;
+    }
+   color: #0CA296;
+  }
+}
+
+.nav-list-link {
+  font: {
+    family: "Circular Std Medium";
+    size: 18px;
+  }
+  color: #000000;
+}
+
+
+
+
